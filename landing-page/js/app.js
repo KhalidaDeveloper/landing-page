@@ -39,7 +39,7 @@ console.log(sections);
 
 // 1- build NavBar Menu List
 function buildNavbar(){
-   /* const list = document.createElement('li');
+   const list = document.createElement('li');
  const link = document.createElement('a');
     for(let section of sections){
         console.log("section",section)
@@ -53,10 +53,10 @@ function buildNavbar(){
         console.log("list",list)
         menu.appendChild(list);
         console.log("menu",menu)
-        */
-        for(let section of sections){
+       
+       /*  for(let section of sections){
             menu.innerHTML +=`<li><a class='menu__link' href='#${section.id}'>${section.id}</a></li>`;
-    }
+    */ }
 }
  
 
